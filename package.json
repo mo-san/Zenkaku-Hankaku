@@ -3,6 +3,7 @@
 	"displayName": "Zenkaku-Hankaku",
 	"description": "",
 	"version": "0.0.1",
+	"publisher": "Masaki",
 	"engines": {
 		"vscode": "^1.44.0"
 	},
@@ -10,16 +11,85 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:zenkaku-hankaku.helloWorld"
+		"onCommand:zenkaku-hankaku.hanzenAlphaNumSymbol",
+		"onCommand:zenkaku-hankaku.hanzenAlphaNum",
+		"onCommand:zenkaku-hankaku.hanzenAlphabet",
+		"onCommand:zenkaku-hankaku.hanzenNumber",
+		"onCommand:zenkaku-hankaku.hanzenSymbol",
+		"onCommand:zenkaku-hankaku.zenhanAlphaNumSymbol",
+		"onCommand:zenkaku-hankaku.zenhanAlphaNum",
+		"onCommand:zenkaku-hankaku.zenhanAlphabet",
+		"onCommand:zenkaku-hankaku.zenhanNumber",
+		"onCommand:zenkaku-hankaku.zenhanSymbol",
+		"onCommand:zenkaku-hankaku.hanzenKatakana",
+		"onCommand:zenkaku-hankaku.zenhanKatakana",
+		"onCommand:zenkaku-hankaku.HiraganaKatakana",
+		"onCommand:zenkaku-hankaku.KatakanaHiragana"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "zenkaku-hankaku.helloWorld",
-				"title": "Hello World"
+				"command": "zenkaku-hankaku.hanzenAlphaNumSymbol",
+				"title": "半角→全角 英数記 hanzenAlphaNumSymbol"
+			},
+			{
+				"command": "zenkaku-hankaku.hanzenAlphaNum",
+				"title": "半角→全角 英数 hanzenAlphaNum"
+			},
+			{
+				"command": "zenkaku-hankaku.hanzenAlphabet",
+				"title": "半角→全角 英 hanzenAlphabet"
+			},
+			{
+				"command": "zenkaku-hankaku.hanzenNumber",
+				"title": "半角→全角 数 hanzenNumber"
+			},
+			{
+				"command": "zenkaku-hankaku.hanzenSymbol",
+				"title": "半角→全角 記 hanzenSymbol"
+			},
+			{
+				"command": "zenkaku-hankaku.zenhanAlphaNumSymbol",
+				"title": "全角→半角 英数記 zenhanAlphaNumSymbol"
+			},
+			{
+				"command": "zenkaku-hankaku.zenhanAlphaNum",
+				"title": "全角→半角 英数 zenhanAlphaNum"
+			},
+			{
+				"command": "zenkaku-hankaku.zenhanAlphabet",
+				"title": "全角→半角 英 zenhanAlphabet"
+			},
+			{
+				"command": "zenkaku-hankaku.zenhanNumber",
+				"title": "全角→半角 数 zenhanNumber"
+			},
+			{
+				"command": "zenkaku-hankaku.zenhanSymbol",
+				"title": "全角→半角 記 zenhanSymbol"
+			},
+			{
+				"command": "zenkaku-hankaku.hanzenKatakana",
+				"title": "半角カナ→全角カナ hanzenKatakana"
+			},
+			{
+				"command": "zenkaku-hankaku.zenhanKatakana",
+				"title": "全角カナ→半角カナ zenhanKatakana"
+			},
+			{
+				"command": "zenkaku-hankaku.HiraganaKatakana",
+				"title": "ひらがな→カタカナ HiraganaKatakana"
+			},
+			{
+				"command": "zenkaku-hankaku.KatakanaHiragana",
+				"title": "カタカナ→ひらがな KatakanaHiragana"
 			}
 		]
+	},
+	"repository": {
+		"type": "git",
+		"url": ""
 	},
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
@@ -30,16 +100,17 @@
 		"test": "node ./out/test/runTest.js"
 	},
 	"devDependencies": {
-		"@types/vscode": "^1.44.0",
 		"@types/glob": "^7.1.1",
 		"@types/mocha": "^7.0.2",
 		"@types/node": "^13.11.0",
-		"eslint": "^6.8.0",
-		"@typescript-eslint/parser": "^2.26.0",
+		"@types/vscode": "^1.44.0",
 		"@typescript-eslint/eslint-plugin": "^2.26.0",
+		"@typescript-eslint/parser": "^2.26.0",
+		"eslint": "^6.8.0",
 		"glob": "^7.1.6",
 		"mocha": "^7.1.1",
 		"typescript": "^3.8.3",
 		"vscode-test": "^1.3.0"
-	}
+	},
+	"dependencies": {}
 }
