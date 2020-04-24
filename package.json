@@ -31,61 +31,125 @@
 		"commands": [
 			{
 				"command": "zenkaku-hankaku.hanzenAlphaNumSymbol",
-				"title": "半角→全角 英数記 hanzenAlphaNumSymbol"
+				 "title": "Alpha Num Symbol 半角→全角 英 数 記号",
+				"category": "Han to Zen"
 			},
 			{
 				"command": "zenkaku-hankaku.hanzenAlphaNum",
-				"title": "半角→全角 英数 hanzenAlphaNum"
+				 "title": "Alpha Num 半角→全角 英 数",
+				"category": "Han to Zen"
 			},
 			{
 				"command": "zenkaku-hankaku.hanzenAlphabet",
-				"title": "半角→全角 英 hanzenAlphabet"
+				 "title": "Alphabet 半角→全角 英字",
+				"category": "Han to Zen"
 			},
 			{
 				"command": "zenkaku-hankaku.hanzenNumber",
-				"title": "半角→全角 数 hanzenNumber"
+				 "title": "Number 半角→全角 数字",
+				"category": "Han to Zen"
 			},
 			{
 				"command": "zenkaku-hankaku.hanzenSymbol",
-				"title": "半角→全角 記 hanzenSymbol"
+				 "title": "Symbol 半角→全角 記号",
+				"category": "Han to Zen"
 			},
 			{
 				"command": "zenkaku-hankaku.zenhanAlphaNumSymbol",
-				"title": "全角→半角 英数記 zenhanAlphaNumSymbol"
+				 "title": "Alpha Num Symbol 全角→半角 英 数 記号",
+				"category": "Zen to Han"
 			},
 			{
 				"command": "zenkaku-hankaku.zenhanAlphaNum",
-				"title": "全角→半角 英数 zenhanAlphaNum"
+				 "title": "Alpha Num 全角→半角 英 数",
+				"category": "Zen to Han"
 			},
 			{
 				"command": "zenkaku-hankaku.zenhanAlphabet",
-				"title": "全角→半角 英 zenhanAlphabet"
+				 "title": "Alphabet 全角→半角 英字",
+				"category": "Zen to Han"
 			},
 			{
 				"command": "zenkaku-hankaku.zenhanNumber",
-				"title": "全角→半角 数 zenhanNumber"
+				 "title": "Number 全角→半角 数字",
+				"category": "Zen to Han"
 			},
 			{
 				"command": "zenkaku-hankaku.zenhanSymbol",
-				"title": "全角→半角 記 zenhanSymbol"
+				 "title": "Symbol 全角→半角 記号",
+				"category": "Zen to Han"
 			},
 			{
 				"command": "zenkaku-hankaku.hanzenKatakana",
-				"title": "半角カナ→全角カナ hanzenKatakana"
+				 "title": "Katakana 半角カナ→全角カナ",
+				"category": "Han to Zen"
 			},
 			{
 				"command": "zenkaku-hankaku.zenhanKatakana",
-				"title": "全角カナ→半角カナ zenhanKatakana"
+				 "title": "Katakana 全角カナ→半角カナ",
+				"category": "Zen to Han"
 			},
 			{
 				"command": "zenkaku-hankaku.HiraganaKatakana",
-				"title": "ひらがな→カタカナ HiraganaKatakana"
+				 "title": "Hira to Kata ひらがな→カタカナ",
+				"category": "Zen to Zen"
 			},
 			{
 				"command": "zenkaku-hankaku.KatakanaHiragana",
-				"title": "カタカナ→ひらがな KatakanaHiragana"
+				 "title": "Kata to Hira カタカナ→ひらがな",
+				"category": "Zen to Zen"
 			}
-		]
+		],
+		"configuration": {
+			"title": "Zenkaku-Hankaku",
+			"properties": {
+				"zenkakuHankaku.translateKatakana.intoHalfWidthIncludesSymbols": {
+					"type":"boolean",
+					"markdownDescription": "全角カナ→半角カナへの変換に記号 (`。`, `、`, `ー`, `「`, `」`, `・`) を含める",
+					"default": true
+				},
+				"zenkakuHankaku.translateKatakana.intoFullWidthIncludesSymbols": {
+					"type":"boolean",
+					"markdownDescription": "半角カナ→全角カナへの変換に記号 (`｡`, `､`, `ｰ`, `｢`, `｣`, `･`) を含める",
+					"default": true
+				},
+				"zenkakuHankaku.companionCharacterTo.backslash": {
+					"type":"string",
+					"markdownDescription": "半角のバックスラッシュ (`\\`) に対応する全角文字",
+					"default": "＼",
+					"enum": ["＼", "￥"],
+					"enumDescriptions": ["バックスラッシュ", "円記号"]
+				},
+				"zenkakuHankaku.companionCharacterTo.hyphen": {
+					"type":"string",
+					"markdownDescription": "半角のハイフン (`-`) に対応する全角文字",
+					"default": "—",
+					"enum": ["—", "―", "－"],
+					"enumDescriptions": ["ダッシュ (em Dash) / U+2014", "ホリゾンタルバー / U+2015", "全角ハイフンマイナス / U+FF0D"]
+				},
+				"zenkakuHankaku.companionCharacterTo.tilde": {
+					"type":"string",
+					"markdownDescription": "半角のチルダ (`~`) に対応する全角文字",
+					"default": "～",
+					"enum": ["～", "〜"],
+					"enumDescriptions": ["全角チルダ / U+FF5E", "波ダッシュ / U+301C"]
+				},
+				"zenkakuHankaku.companionCharacterTo.period": {
+					"type":"string",
+					"markdownDescription": "半角のピリオド (`.`) に対応する全角文字",
+					"default": "．",
+					"enum": ["．", "。"],
+					"enumDescriptions": ["全角ピリオド", "句点"]
+				},
+				"zenkakuHankaku.companionCharacterTo.comma": {
+					"type":"string",
+					"markdownDescription": "半角のコンマ (`,`) に対応する全角文字",
+					"default": "，",
+					"enum": ["，", "、"],
+					"enumDescriptions": ["全角コンマ", "読点"]
+				}
+			}
+		}
 	},
 	"repository": {
 		"type": "git",

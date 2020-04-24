@@ -1,5 +1,4 @@
 import * as assert from 'assert';
-import * as vscode from 'vscode';
 import {
 	hanzenAlphaNumSymbol, hanzenAlphaNum, hanzenAlphabet, hanzenNumber, hanzenSymbol, hanzenKatakana,
 	zenhanAlphaNumSymbol, zenhanAlphaNum, zenhanAlphabet, zenhanNumber, zenhanSymbol, zenhanKatakana,
