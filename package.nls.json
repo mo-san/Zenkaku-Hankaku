@@ -16,5 +16,22 @@
     "config.companion.period.ideographicFullStop": "an ideographic full stop",
     "config.companion.comma": "The corresponding fullwidth character to halfwidth comma (`,`)",
     "config.companion.comma.fullwidthComma": "a fullwidth comma",
-    "config.companion.comma.ideographicComma": "an ideographic comma"
+    "config.companion.comma.ideographicComma": "an ideographic comma",
+    "command.hanzenAlphaNumSymbol": "Alpha Num Symbol",
+    "command.hanzenAlphaNum": "Alpha Num",
+    "command.hanzenAlphabet": "Alphabet",
+    "command.hanzenNumber": "Number",
+    "command.hanzenSymbol": "Symbol",
+    "command.zenhanAlphaNumSymbol": "Alpha Num Symbol",
+    "command.zenhanAlphaNum": "Alpha Num",
+    "command.zenhanAlphabet": "Alphabet",
+    "command.zenhanNumber": "Number",
+    "command.zenhanSymbol": "Symbol",
+    "command.hanzenKatakana": "Katakana",
+    "command.zenhanKatakana": "Katakana",
+    "command.HiraganaKatakana": "Hiragana to Katakana",
+    "command.KatakanaHiragana": "Katakana to Hiragana",
+    "category.hankakuToZenkaku": "Hankaku to Zenkaku (Half → Full)",
+    "category.zenkakuToHankaku": "Zenkaku to Hankaku (Full → Half)",
+    "category.kanaToKana": "Zenkaku to Zenkaku (Full → Full)"
 }

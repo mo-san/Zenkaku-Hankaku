@@ -16,5 +16,22 @@
     "config.companion.period.ideographicFullStop": "句点",
     "config.companion.comma": "半角のコンマ (`,`) に対応する全角文字",
     "config.companion.comma.fullwidthComma": "全角コンマ",
-    "config.companion.comma.ideographicComma": "読点"
+    "config.companion.comma.ideographicComma": "読点",
+    "command.hanzenAlphaNumSymbol": "英 数 記号",
+    "command.hanzenAlphaNum": "英 数",
+    "command.hanzenAlphabet": "英字",
+    "command.hanzenNumber": "数字",
+    "command.hanzenSymbol": "記号",
+    "command.zenhanAlphaNumSymbol": "英 数 記号",
+    "command.zenhanAlphaNum": "英 数",
+    "command.zenhanAlphabet": "英字",
+    "command.zenhanNumber": "数字",
+    "command.zenhanSymbol": "記号",
+    "command.hanzenKatakana": "半角カナ→全角カナ",
+    "command.zenhanKatakana": "全角カナ→半角カナ",
+    "command.HiraganaKatakana": "ひらがな→カタカナ",
+    "command.KatakanaHiragana": "カタカナ→ひらがな",
+    "category.hankakuToZenkaku": "半角→全角",
+    "category.zenkakuToHankaku": "全角→半角",
+    "category.kanaToKana": "全角→全角"
 }

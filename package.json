@@ -31,73 +31,73 @@
 		"commands": [
 			{
 				"command": "zenkaku-hankaku.hanzenAlphaNumSymbol",
-				 "title": "Alpha Num Symbol 半角→全角 英 数 記号",
-				"category": "Han to Zen"
+				 "title": "%command.hanzenAlphaNumSymbol%",
+				"category": "%category.hankakuToZenkaku%"
 			},
 			{
 				"command": "zenkaku-hankaku.hanzenAlphaNum",
-				 "title": "Alpha Num 半角→全角 英 数",
-				"category": "Han to Zen"
+				 "title": "%command.hanzenAlphaNum%",
+				"category": "%category.hankakuToZenkaku%"
 			},
 			{
 				"command": "zenkaku-hankaku.hanzenAlphabet",
-				 "title": "Alphabet 半角→全角 英字",
-				"category": "Han to Zen"
+				 "title": "%command.hanzenAlphabet%",
+				"category": "%category.hankakuToZenkaku%"
 			},
 			{
 				"command": "zenkaku-hankaku.hanzenNumber",
-				 "title": "Number 半角→全角 数字",
-				"category": "Han to Zen"
+				 "title": "%command.hanzenNumber%",
+				"category": "%category.hankakuToZenkaku%"
 			},
 			{
 				"command": "zenkaku-hankaku.hanzenSymbol",
-				 "title": "Symbol 半角→全角 記号",
-				"category": "Han to Zen"
+				 "title": "%command.hanzenSymbol%",
+				"category": "%category.hankakuToZenkaku%"
 			},
 			{
 				"command": "zenkaku-hankaku.zenhanAlphaNumSymbol",
-				 "title": "Alpha Num Symbol 全角→半角 英 数 記号",
-				"category": "Zen to Han"
+				 "title": "%command.zenhanAlphaNumSymbol%",
+				"category": "%category.zenkakuToHankaku%"
 			},
 			{
 				"command": "zenkaku-hankaku.zenhanAlphaNum",
-				 "title": "Alpha Num 全角→半角 英 数",
-				"category": "Zen to Han"
+				 "title": "%command.zenhanAlphaNum%",
+				"category": "%category.zenkakuToHankaku%"
 			},
 			{
 				"command": "zenkaku-hankaku.zenhanAlphabet",
-				 "title": "Alphabet 全角→半角 英字",
-				"category": "Zen to Han"
+				 "title": "%command.zenhanAlphabet%",
+				"category": "%category.zenkakuToHankaku%"
 			},
 			{
 				"command": "zenkaku-hankaku.zenhanNumber",
-				 "title": "Number 全角→半角 数字",
-				"category": "Zen to Han"
+				 "title": "%command.zenhanNumber%",
+				"category": "%category.zenkakuToHankaku%"
 			},
 			{
 				"command": "zenkaku-hankaku.zenhanSymbol",
-				 "title": "Symbol 全角→半角 記号",
-				"category": "Zen to Han"
+				 "title": "%command.zenhanSymbol%",
+				"category": "%category.zenkakuToHankaku%"
 			},
 			{
 				"command": "zenkaku-hankaku.hanzenKatakana",
-				 "title": "Katakana 半角カナ→全角カナ",
-				"category": "Han to Zen"
+				 "title": "%command.hanzenKatakana%",
+				"category": "%category.hankakuToZenkaku%"
 			},
 			{
 				"command": "zenkaku-hankaku.zenhanKatakana",
-				 "title": "Katakana 全角カナ→半角カナ",
-				"category": "Zen to Han"
+				 "title": "%command.zenhanKatakana%",
+				"category": "%category.zenkakuToHankaku%"
 			},
 			{
 				"command": "zenkaku-hankaku.HiraganaKatakana",
-				 "title": "Hira to Kata ひらがな→カタカナ",
-				"category": "Zen to Zen"
+				 "title": "%command.HiraganaKatakana%",
+				"category": "%category.kanaToKana%"
 			},
 			{
 				"command": "zenkaku-hankaku.KatakanaHiragana",
-				 "title": "Kata to Hira カタカナ→ひらがな",
-				"category": "Zen to Zen"
+				 "title": "%command.KatakanaHiragana%",
+				"category": "%category.kanaToKana%"
 			}
 		],
 		"configuration": {
