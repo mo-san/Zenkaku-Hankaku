@@ -1,0 +1,20 @@
+{
+    "config.description.translateKatakana.intoHalfWidthIncludesSymbols": "Include symbols (`。`, `、`, `ー`, `「`, `」`, `・`) when translating fullwidth katakana into halfwidth ones.",
+    "config.description.translateKatakana.intoFullWidthIncludesSymbols": "Include symbols (`｡`, `､`, `ｰ`, `｢`, `｣`, `･`) when translating  halfwidth katakana into fullwidth ones.",
+    "config.companion.backslash": "The corresponding fullwidth character to halfwidth backslash (`\\`)",
+    "config.companion.backslash.backslash": "a backslash",
+    "config.companion.backslash.yen": "a yen sign",
+    "config.companion.hyphen": "The corresponding fullwidth character to halfwidth hyphen (`-`)",
+    "config.companion.hyphen.u2014": "a dash (em Dash) / U+2014",
+    "config.companion.hyphen.u2015": "a horizontal bar / U+2015",
+    "config.companion.hyphen.uff0d": "a hyphen-minus / U+FF0D",
+    "config.companion.tilde": "The corresponding fullwidth character to halfwidth tilde (`~`)",
+    "config.companion.tilde.fullWidthTilde": "a fullwidth tilde / U+FF5E",
+    "config.companion.tilde.waveDash": "a wave dash / U+301C",
+    "config.companion.period": "The corresponding fullwidth character to halfwidth full stop (`.`)",
+    "config.companion.period.fullWidthPeriod": "a fullwidth full stop",
+    "config.companion.period.ideographicFullStop": "an ideographic full stop",
+    "config.companion.comma": "The corresponding fullwidth character to halfwidth comma (`,`)",
+    "config.companion.comma.fullwidthComma": "a fullwidth comma",
+    "config.companion.comma.ideographicComma": "an ideographic comma"
+}

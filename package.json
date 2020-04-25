@@ -105,48 +105,64 @@
 			"properties": {
 				"zenkakuHankaku.translateKatakana.intoHalfWidthIncludesSymbols": {
 					"type":"boolean",
-					"markdownDescription": "全角カナ→半角カナへの変換に記号 (`。`, `、`, `ー`, `「`, `」`, `・`) を含める",
+					"markdownDescription": "%config.description.translateKatakana.intoHalfWidthIncludesSymbols%",
 					"default": true
 				},
 				"zenkakuHankaku.translateKatakana.intoFullWidthIncludesSymbols": {
 					"type":"boolean",
-					"markdownDescription": "半角カナ→全角カナへの変換に記号 (`｡`, `､`, `ｰ`, `｢`, `｣`, `･`) を含める",
+					"markdownDescription": "%config.description.translateKatakana.intoFullWidthIncludesSymbols%",
 					"default": true
 				},
 				"zenkakuHankaku.companionCharacterTo.backslash": {
 					"type":"string",
-					"markdownDescription": "半角のバックスラッシュ (`\\`) に対応する全角文字",
+					"markdownDescription": "%config.companion.backslash%",
 					"default": "＼",
 					"enum": ["＼", "￥"],
-					"enumDescriptions": ["バックスラッシュ", "円記号"]
+					"enumDescriptions": [
+						"%config.companion.backslash.backslash%",
+						"%config.companion.backslash.yen%"
+					]
 				},
 				"zenkakuHankaku.companionCharacterTo.hyphen": {
 					"type":"string",
-					"markdownDescription": "半角のハイフン (`-`) に対応する全角文字",
+					"markdownDescription": "%config.companion.hyphen%",
 					"default": "—",
 					"enum": ["—", "―", "－"],
-					"enumDescriptions": ["ダッシュ (em Dash) / U+2014", "ホリゾンタルバー / U+2015", "全角ハイフンマイナス / U+FF0D"]
+					"enumDescriptions": [
+						"%config.companion.hyphen.u2014%",
+						"%config.companion.hyphen.u2015%",
+						"%config.companion.hyphen.uff0d%"
+					]
 				},
 				"zenkakuHankaku.companionCharacterTo.tilde": {
 					"type":"string",
-					"markdownDescription": "半角のチルダ (`~`) に対応する全角文字",
+					"markdownDescription": "%config.companion.tilde%",
 					"default": "～",
 					"enum": ["～", "〜"],
-					"enumDescriptions": ["全角チルダ / U+FF5E", "波ダッシュ / U+301C"]
+					"enumDescriptions": [
+						"%config.companion.tilde.fullWidthTilde%",
+						"%config.companion.tilde.waveDash%"
+					]
 				},
 				"zenkakuHankaku.companionCharacterTo.period": {
 					"type":"string",
-					"markdownDescription": "半角のピリオド (`.`) に対応する全角文字",
+					"markdownDescription": "%config.companion.period%",
 					"default": "．",
 					"enum": ["．", "。"],
-					"enumDescriptions": ["全角ピリオド", "句点"]
+					"enumDescriptions": [
+						"%config.companion.period.fullWidthPeriod%",
+						"%config.companion.period.ideographicFullStop%"
+					]
 				},
 				"zenkakuHankaku.companionCharacterTo.comma": {
 					"type":"string",
-					"markdownDescription": "半角のコンマ (`,`) に対応する全角文字",
+					"markdownDescription": "%config.companion.comma%",
 					"default": "，",
 					"enum": ["，", "、"],
-					"enumDescriptions": ["全角コンマ", "読点"]
+					"enumDescriptions": [
+						"%config.companion.comma.fullwidthComma%",
+						"%config.companion.comma.ideographicComma%"
+					]
 				}
 			}
 		}

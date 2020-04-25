@@ -1,0 +1,20 @@
+{
+    "config.description.translateKatakana.intoHalfWidthIncludesSymbols": "全角カナ→半角カナへの変換に記号 (`。`, `、`, `ー`, `「`, `」`, `・`) を含める。",
+    "config.description.translateKatakana.intoFullWidthIncludesSymbols": "半角カナ→全角カナへの変換に記号 (`｡`, `､`, `ｰ`, `｢`, `｣`, `･`) を含める。",
+    "config.companion.backslash": "半角のバックスラッシュ (`\\`) に対応する全角文字",
+    "config.companion.backslash.backslash": "バックスラッシュ",
+    "config.companion.backslash.yen": "円記号",
+    "config.companion.hyphen": "半角のハイフン (`-`) に対応する全角文字",
+    "config.companion.hyphen.u2014": "ダッシュ (em Dash) / U+2014",
+    "config.companion.hyphen.u2015": "ホリゾンタルバー / U+2015",
+    "config.companion.hyphen.uff0d": "全角ハイフンマイナス / U+FF0D",
+    "config.companion.tilde": "半角のチルダ (`~`) に対応する全角文字",
+    "config.companion.tilde.fullWidthTilde": "全角チルダ / U+FF5E",
+    "config.companion.tilde.waveDash": "波ダッシュ / U+301C",
+    "config.companion.period": "半角のピリオド (`.`) に対応する全角文字",
+    "config.companion.period.fullWidthPeriod": "全角ピリオド",
+    "config.companion.period.ideographicFullStop": "句点",
+    "config.companion.comma": "半角のコンマ (`,`) に対応する全角文字",
+    "config.companion.comma.fullwidthComma": "全角コンマ",
+    "config.companion.comma.ideographicComma": "読点"
+}
