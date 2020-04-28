@@ -34,10 +34,10 @@ Command names depend on your VS Code's locale setting.
 | Command | Command Name:<br>En<br>Ja | Description | Example |
 |---|---|---|---|
 | `zenkaku-hankaku.zenhanAlphaNumSymbol` | `Alpha Num Symbol`<br>`英 数 記号` | translates alphabetic, numeric and symbolic characters into half width ones<br>全角のアルファベットと数字、記号を半角に置き換えます | `ａｂｃ０１２　！＃％` → `abc012 !#%` |
-| `zenkaku-hankaku.zenhanAlphaNum` | `Alpha Num`<br>`英 数` | translates alphanumeric characters into half width ones<br>全角のアルファベットと数字を半角に置き換えます | `ａｂｃ０１２ !#%` → `abc012 !#%` |
-| `zenkaku-hankaku.zenhanAlphabet` | `Alphabet`<br>`英字` | translates alphabetic characters into half width ones<br>全角のアルファベットを半角に置き換えます | `ａｂｃ012 !#%` → `abc012 !#%` |
-| `zenkaku-hankaku.zenhanNumber` | `Number`<br>`数字` | translates numeric characters into half width ones<br>全角の数字を半角に置き換えます | `abc０１２ !#%` → `abc012 !#%` |
-| `zenkaku-hankaku.zenhanSymbol` | `Symbol`<br>`記号` | translates symbolic characters into half width ones<br>全角の記号を半角に置き換えます | `abc012　！＃％` → `abc012 !#%` |
+| `zenkaku-hankaku.zenhanAlphaNum` | `Alpha Num`<br>`英 数` | translates alphanumeric characters into half width ones<br>全角のアルファベットと数字を半角に置き換えます | `ａｂｃ０１２　！＃％` → `abc012　！＃％` |
+| `zenkaku-hankaku.zenhanAlphabet` | `Alphabet`<br>`英字` | translates alphabetic characters into half width ones<br>全角のアルファベットを半角に置き換えます | `ａｂｃ０１２　！＃％` → `abc０１２　！＃％` |
+| `zenkaku-hankaku.zenhanNumber` | `Number`<br>`数字` | translates numeric characters into half width ones<br>全角の数字を半角に置き換えます | `ａｂｃ０１２　！＃％` → `ａｂｃ012　！＃％` |
+| `zenkaku-hankaku.zenhanSymbol` | `Symbol`<br>`記号` | translates symbolic characters into half width ones<br>全角の記号を半角に置き換えます | `ａｂｃ０１２　！＃％` → `ａｂｃ０１２ !#%` |
 | `zenkaku-hankaku.zenhanKatakana` | `Katakana`<br>`全角カナ→半角カナ` | translates half width Katakana characters into full width ones<br>全角のカタカナを半角に置き換えます | `「キャリーパミュパミュ。」` → `｢ｷｬﾘｰﾊﾟﾐｭﾊﾟﾐｭ｡｣` |
 
 ###  Hiragana to/from Katakana
