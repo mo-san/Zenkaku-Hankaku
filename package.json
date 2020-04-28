@@ -1,15 +1,17 @@
 {
 	"name": "zenkaku-hankaku",
 	"displayName": "Zenkaku-Hankaku",
-	"description": "",
+	"description": "全角と半角を変換する (switches Japanese fullwidth characters and halfwidth ones)",
 	"version": "0.0.1",
-	"publisher": "Masaki",
+	"publisher": "masakit",
 	"engines": {
 		"vscode": "^1.44.0"
 	},
 	"categories": [
+		"Formatters",
 		"Other"
 	],
+	"icon": "",
 	"activationEvents": [
 		"onCommand:zenkaku-hankaku.hanzenAlphaNumSymbol",
 		"onCommand:zenkaku-hankaku.hanzenAlphaNum",
@@ -169,7 +171,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": ""
+		"url": "https://github.com/mo-san/Zenkaku-Hankaku.git"
 	},
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
