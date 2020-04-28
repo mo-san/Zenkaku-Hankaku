@@ -11,7 +11,7 @@
 		"Formatters",
 		"Other"
 	],
-	"icon": "",
+	"icon": "icon.png",
 	"activationEvents": [
 		"onCommand:zenkaku-hankaku.hanzenAlphaNumSymbol",
 		"onCommand:zenkaku-hankaku.hanzenAlphaNum",
