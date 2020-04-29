@@ -7,6 +7,10 @@ Addtionally, other alphabet systems in Japanese, such as "hiragana (ひらがな
 日本語の全角文字と半角文字を変換します。
 半角カタカナと全角カタカナとの変換や、ひらがなとカタカナの変換にも対応しています。
 
+## Installation
+
+Visit and download from [VS Code Marketplace page](https://marketplace.visualstudio.com/items?itemName=masakit.zenkaku-hankaku), or search for `zenkaku-hankaku` from the command palatte (Ctrl+Alt+P) inside the Code app.
+
 ## Features
 
 Choose a command from the command palette to execute.
@@ -68,4 +72,4 @@ MIT Licence
 
 ## Release Notes
 
-- 1.0.0 / 2020-04-28<br>Initial release
+- 0.0.1 / 2020-04-28<br>Initial release
