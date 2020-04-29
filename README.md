@@ -72,4 +72,4 @@ MIT Licence
 
 ## Release Notes
 
-- 0.0.1 / 2020-04-28<br>Initial release
+- 1.0.0 / 2020-04-28<br>Initial release
